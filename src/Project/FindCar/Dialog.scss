@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conatainer-dialog {
+    width: 80%;
+    margin: auto;
+
+    h2 {
+        padding: 15px 0;
+    }
+
+    .row-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Car-One {
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #e1e1e1;
+        }
+    }
+
+    .btn-compare {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+
+        .btn {
+            background: #f33 !important;
+        }
+
+    }
+}
+
+.col-compare-sub {
+    img {
+        max-width: 100%;
+    }
+    .clr {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

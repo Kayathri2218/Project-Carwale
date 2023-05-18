@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-two {
+    width: 80%;
+    margin: auto;
+
+    h2, p {
+        padding: 15px 0;
+    }
+
+    .row-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col {
+            width: 100%;
+            margin: 10px 10px;
+
+            .image {
+                padding: 10px;
+            }
+
+            .image img {
+                max-width: 100%;
+            }
+
+            .content h3,
+            p {
+                padding: 10px;
+            }
+        }
+    }
+
+    .static-nav {
+        .css-1a4cg4j-MuiButtonBase-root-MuiTab-root.Mui-selected {
+            color: #00afa0;
+        }
+
+        .css-11yukd5-MuiTabs-indicator {
+            background: #00afa0;
+        }
+    }
+
+    .btn-offer {
+        border: 1px solid rgba(25, 118, 210, 0.5) !important;
+        color: #00afa0 !important;
+    }
+
+
+    .table {
+        .head {
+            margin: 15px 0;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .col {
+                width: 100%;
+                table {
+                    text-align: left;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    tr {
+                        display: inline-flex;
+                        flex-direction: column;
+                    }
+
+                    th,
+                    td {
+                        border: 1px solid #868282b4;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:320px) {
+    .col {
+        padding: 10px 20px;
+    }
+}
+
+@media(min-width:690px) {
+    .col {
+        padding: 20px 40px;
+    }
+}
+
+@media(min-width:1024px) {
+    .col {
+        padding: 25px 50px;
+    }
+}

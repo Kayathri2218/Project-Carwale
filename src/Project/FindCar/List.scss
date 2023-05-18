@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-listcar {
+    width: 80%;
+    margin: auto;
+
+    .head-div {
+        margin: 10px;
+
+        p {
+            padding: 15px;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+
+        .css-bhp9pd-MuiPaper-root-MuiCard-root {
+            margin: 15px 0 !important;
+        }
+
+        .col-1 {
+            padding: 10px;
+
+            .space {
+                width: 100%;
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                border: 1px solid #e1e1e1;
+                margin: 10px 0;
+
+                .image {
+                    width: 50%;
+                }
+
+                .image img {
+                    max-width: 100%;
+                }
+
+                .content {
+                    width: 50%;
+
+                    div {
+                        margin: 10px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .sub {
+                        p {
+                            span {
+                                border-right: 1px solid #b5b5b5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .col-2 {
+        width: 40%;
+
+        h1 {
+            padding: 0 15px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div {
+            width: 30%;
+            border: 1px solid #b5b5b5;
+
+            .img-div {
+                padding: 10px;
+            }
+
+            .img-div img {
+                max-width: 100%;
+            }
+        }
+
+    }
+}
+
+.container-listcar-1 {
+    width: 80%;
+    margin: auto;
+
+    .row {
+
+        .head h1,
+        p {
+            margin: 10px 0;
+        }
+
+    }
+
+    .col-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .css-bhp9pd-MuiPaper-root-MuiCard-root {
+            border: 1px solid #e1e1e1;
+        }
+
+        .card {
+            width: 50%;
+
+            div {
+                margin: 10px;
+            }
+
+            .space {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .image img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.static {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 20px 0;
+
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+        color: #b5b5b5;
+        border: 1px solid #b5b5b5;
+    }
+
+    .static-1 {
+        width: 83%;
+    }
+
+    .static-2 {
+        width: 17%;
+    }
+}
+
+@media(min-width:320px) {
+    .container-listcar {
+        .col-1 {
+            width: 100%;
+        }
+        .col-2 {
+            display: none;
+        }
+
+        .static {
+            .static-1 {
+                width: 100%;
+            }
+
+            .static-2 {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(min-width:690px) {
+    .container-listcar {
+        .col-1 {
+            width: 100%;
+        }
+        .col-2 {
+            display: none;
+        }
+
+        .static {
+            .static-1 {
+                width: 100%;
+            }
+
+            .static-2 {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(min-width:1024px) {
+    .container-listcar {
+        .col-1 {
+            width: 60%;
+        }
+        .col-2 {
+            display: block;
+        }
+        .static {
+            .static-1 {
+                width: 83%;
+            }
+
+            .static-2 {
+                width: 17%;
+            }
+        }
+    }
+}
