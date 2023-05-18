@@ -204,7 +204,7 @@ const FindCar = () => {
               <div className='col-brends' key={index}>
                 <div>
                   <div className='img-div' onClick={() => ListOfCompany(value)}>
-                    <img src={value.image} alt='no image'></img>
+                    <img src={value.image} alt='image'></img>
                     <p>{value.companyName}</p>
                   </div>
                 </div>

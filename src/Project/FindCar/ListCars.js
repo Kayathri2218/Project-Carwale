@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux';
 import { carDetailsList, selectComapny, selectPrice, carDList } from '../Redux/slice';
-import Card from '@mui/material/Card';
 import './List.scss'
 import { Button } from '@mui/material';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';

@@ -6,13 +6,12 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
-import Card from '@mui/material/Card';
 import { Button, DialogActions } from '@mui/material';
 import { Accordin } from './Accordin';
 import './Dialog.scss';
 import './According.scss';
 import { useSelector, useDispatch } from 'react-redux';
-import { carDList, carDetailsList, carSelectsA } from '../Redux/slice';
+import { carDList } from '../Redux/slice';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import ClearIcon from '@mui/icons-material/Clear';
@@ -99,7 +98,7 @@ function SimpleDialog() {
                                     <ClearIcon onClick={() => setClose(true)}/>
                                 </div>
                                 <div className='style-compare'>
-                                    <img src={v.image} alt='car' onClick={() => Detail(v)} />
+                                    <img src={v.image} alt='image' onClick={() => Detail(v)} />
                                     <h4>{v.model}</h4>
                                     <p>{v.transmission}</p>
                                     <p>{v.prize}</p>
@@ -112,7 +111,7 @@ function SimpleDialog() {
                         <div className='col-compare-sub'>
                             <img
                                 src='https://imgd.aeplcdn.com/0x0/cw/static/icons/circle/select-car.svg'
-                                alt='no image'
+                                alt='image'
                                 onClick={handleClickOpen}
                             />
                         </div>

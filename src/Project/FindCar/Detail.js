@@ -22,7 +22,7 @@ const Detail = () => {
                         </div>
                         <div className="details-content">
                             <div className="details-img">
-                                <img src={detail.image} />
+                                <img src={detail.image} alt="image"/>
                                 <div>
                                     <p>
                                         <ColorLensIcon />
